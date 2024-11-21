@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__div {
+    background-color: #005695;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.footer__div_phone {
+    color: #FFFFFF;
+    padding-left: 3vw;
+}
+
+.footer__div_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    padding-right: 3vw;
+}
+
+.footer__div2 {
+    background-color: #232020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+}
+
+.footer__div2_text {
+    color: #FFFFFFDB;
+}
