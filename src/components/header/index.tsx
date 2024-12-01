@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../public/favicon.svg"
+import logo from "/favicon.svg"
 import S from "./style.module.scss"
 import { Link } from "react-router-dom"
 

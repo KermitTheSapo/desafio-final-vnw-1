@@ -1,0 +1,33 @@
+.card{
+    width: 286px;
+    height: 321px;
+    border-radius: 10px;
+    background-color: #0157944D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 16px;
+    @media (max-width: 390px) {
+        height: 182px;
+        width: 254px;
+    }
+}
+
+.card__img{
+    height: 100px;
+    @media (max-width: 390px) {
+        height: 50px;
+    }
+}
+
+.card__text{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: center;
+    color: #000000;
+    @media (max-width: 390px) {
+        font-size: 17px;
+    }
+}

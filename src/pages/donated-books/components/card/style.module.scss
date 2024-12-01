@@ -1,0 +1,31 @@
+.card{
+    width: 245px;
+    height: 264px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid #005695; 
+    padding: 16px;
+}
+
+.card__img{
+    height: 108px;
+}
+
+.card__text{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: center;
+    color: #000000;
+}
+
+.card__texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}

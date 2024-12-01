@@ -9,6 +9,10 @@
     align-items: center;
     height: 120px;
     justify-content: space-between;
+    @media (max-width: 390px) {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
 }
 
 .footer__div_phone {
@@ -22,6 +26,14 @@
     justify-content: space-around;
     width: 15%;
     padding-right: 3vw;
+    @media (max-width: 390px) {
+        width: 50%;
+    }
+}
+.footer__div_icon {
+    @media (max-width: 390px) {
+        height: 20px;
+    }
 }
 
 .footer__div2 {
@@ -34,4 +46,9 @@
 
 .footer__div2_text {
     color: #FFFFFFDB;
+    @media (max-width: 390px) {
+        font-size: 12px;
+        width: 75%;
+        text-align: center;
+    }
 }

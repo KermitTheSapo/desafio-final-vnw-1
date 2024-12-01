@@ -1,0 +1,21 @@
+.poster{
+    height: 554px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    @media (max-width: 390px) {
+        // bac
+    }
+}
+.poster__title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 20%;
+    padding-left: 4vw;
+    @media (max-width: 390px) {
+        width: 100%;
+        text-align: center;
+    }
+}
