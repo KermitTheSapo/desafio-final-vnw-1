@@ -20,7 +20,7 @@ function Footer() {
                 </div>
             </div>
             <div className={S.footer__div2}>
-                <p className={S.footer__div2_text}>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
+                <p className={S.footer__div2_text}>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
             </div>
         </footer>
     )
